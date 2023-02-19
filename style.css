@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+a{color:black;
+ font-size: 1.5rem;
+ padding:10px;}
+
+a:link{color:#ffffff;}
+a:visited{color:#ffffff;}
+a:hover{color:#00ff1e;}
+
+.cabecalho{background:black;
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: center;}
+
+.cabecalho__simbolo{background: white;
+        width:50px;
+        height:80px;}
+
+
+
+
+.principal{background:linear-gradient(to top, black, #00ff1e, black);
+         text-align:center ;
+         padding:10%;
+         font-size: 2rem;
+         color:white
+         
+          
+           
+          }
+
+
+.principal__empresa--luconi{
+  width:50%;
+}
+
+.principal__empresa--atento{
+  width:50%;
+}
+
+.principal__empresa--feba{
+  width:50%;
+}
+
+.principal__empresa--roveri{
+  width:50%;
+}
+
+
+
+
+
+
+.rodape{
+  height:40%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: black;
+  
+}
+
+.rodape__linkedin{
+  height:100px;
+  width:100px;
+}
+
+.rodape__github{
+  height:100px;
+  width:100px;
+}
